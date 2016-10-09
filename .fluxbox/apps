@@ -1,0 +1,56 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=Mail) (class=Thunderbird) (role=3pane)
+  [Workspace]	{2}
+  [Head]	{1}
+  [Dimensions]	{64% 99%}
+  [Position]	(UPPERLEFT)	{0 0}
+[end]
+[app] (name=Navigator) (class=Firefox) (role=browser)
+  [Workspace]	{1}
+  [Head]	{1}
+  [Dimensions]	{73% 85%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=chromium-browser) (class=Chromium-browser) (role=browser)
+[end]
+[app] (name=nvPY) (class=Nvpy)
+  [Dimensions]	{39% 53%}
+  [Position]	(UPPERLEFT)	{61% 0%}
+[end]
+[app] (name=scite) (class=Scite)
+  [Layer]	{6}
+[end]
+[app] (name=x-terminal-emulator) (class=X-terminal-emulator)
+[end]
+[app] (name=Chromium-browser) (class=Chromium-browser) (role=browser)
+  [Workspace]	{3}
+  [Dimensions]	{78% 84%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=midori) (class=Midori) (role=browser)
+  [Workspace]	{2}
+  [Dimensions]	{59% 96%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=atom) (class=Atom) (role=browser-window)
+  [Workspace]	{0}
+  [Dimensions]	{68% 93%}
+[end]
+[app] (name=atom) (class=Atom)
+[end]
+[app] (name=leafpad) (class=Leafpad)
+[end]
+[app] (name=139895362095088) (class=Toplevel)
+  [Layer]	{6}
+[end]
+[app] (name=140408868931568) (class=Toplevel)
+  [Layer]	{6}
+  [Close]	{yes}
+[end]
+[app] (name=140075296196592) (class=Toplevel)
+  [Layer]	{6}
+  [Close]	{yes}
+[end]

@@ -1,0 +1,19 @@
+[begin] (fluxbox)
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[submenu] [submenu] (System Commands) {System Commands} <>
+[reconfig] (Reconfigure Fluxbox) <~/.local/share/icons/configure.png>
+[restart] (Restart Fluxbox) <~/.local/share/icons/restart.png>
+[Exit] (Logout) <~/.local/share/icons/system-log-out.png>
+[Exec] (Lock Screen) {gnome-screensaver-command -l} <~/.local/share/icons/system-lock-screen.png>
+[Exec] (Switch User) {gdmflexiserver} <~/.local/share/icons/system-switch-user.png>
+[separator] (tag end)
+[Exec] (PowerSave Mode) {sudo pm-powersave} <~/.local/share/icons/preferences-system-power-management.png>
+[Exec] (Suspend) {gnome-screensaver-command -l && sudo pm-suspend} <~/.local/share/icons/system-suspend.png>
+[Exec] (Suspend-Hybrid) {gnome-screensaver-command -l && sudo pm-suspend-hybrid} <~/.local/share/icons/system-suspend-hibernate.png>
+[Exec] (Hibernate) {gnome-screensaver-command -l && sudo pm-hibernate} <~/.local/share/icons/system-suspend-hibernate.png>
+[Exec] (Reboot) {sudo shutdown -f -r now} <~/.local/share/icons/system-reboot.png>
+[Exec] (Shutdown) {sudo shutdown -f -h -P now} <~/.local/share/icons/system-shutdown.png>
+[separator] (tag end)
+
+[end]
+[end]
