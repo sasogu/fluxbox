@@ -24,6 +24,7 @@
   [Layer]	{6}
 [end]
 [app] (name=x-terminal-emulator) (class=X-terminal-emulator)
+  [Layer]	{6}
 [end]
 [app] (name=Chromium-browser) (class=Chromium-browser) (role=browser)
   [Workspace]	{3}
@@ -42,6 +43,8 @@
 [app] (name=atom) (class=Atom)
 [end]
 [app] (name=leafpad) (class=Leafpad)
+  [Dimensions]	{29% 26%}
+  [Position]	(UPPERLEFT)	{32% 40%}
 [end]
 [app] (name=139895362095088) (class=Toplevel)
   [Layer]	{6}
@@ -53,4 +56,13 @@
 [app] (name=140075296196592) (class=Toplevel)
   [Layer]	{6}
   [Close]	{yes}
+[end]
+[app] (name=simplenote) (class=Simplenote) (role=browser-window)
+  [Dimensions]	{56% 75%}
+  [Layer]	{6}
+[end]
+[app] (name=remember the milk) (class=Remember The Milk) (role=browser-window)
+  [Workspace]	{0}
+  [Dimensions]	{64% 81%}
+  [Position]	(UPPERLEFT)	{18% 2%}
 [end]

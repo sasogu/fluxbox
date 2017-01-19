@@ -77,7 +77,7 @@ Mod1 F7 :Exec nvpy
 
 # open XMind
 #Mod1 F8 :Exec /usr/local/xmind/XMind
-# Mod1 F8 :Exec /opt/XMind_Linux_64bit/XMind
+# Mod1 F8 :Exec /opt/XMind8/XMind_Linux_64bit/XMind
 Mod1 F8 :Exec bin/scripts/fluxbox/xmind_fluxbox.sh
 
 # open Workrave
@@ -203,12 +203,21 @@ Control Mod4 F12 :TakeToWorkspace 12
 
 Control Mod1 25 :Exec task-web
 Control Mod1 28 :Exec x-terminal-emulator
+Control Mod1 56 :Exec x-terminal-emulator -m -l bitacora -T Bitacora
+# -m: maximize
+# -b: borless
+# -l: layout
+# -T: sets the title
 Control Mod1 38 :Exec atom
 Control Mod1 40 :Exec leafpad
 Control Mod1 41 :Exec firefox
 Control Mod1 42 :Exec chromium-browser
 Control Mod1 45 :Exec alarmclock
-Control Mod1 53 :Exec XMind
+Control Mod1 53 :Exec bin/scripts/fluxbox/xmind_fluxbox.sh
 Control Mod1 55 :Exec vivaldi
 Control Mod1 58 :Exec /opt/Telegram/Telegram
 Control Mod1 57 :Exec ninja-ide
+Control Mod1 29 :Exec audacity
+Control Mod1 32 :Exec libreoffice
+Control Mod1 27 :Exec Remember\ The\ Milk
+Control Mod1 46 :Exec fluxgui
