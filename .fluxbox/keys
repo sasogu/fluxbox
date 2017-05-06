@@ -69,8 +69,8 @@ Mod1 F3 :Exec firefox
 # open Thunderbird
 Mod1 F5 :Exec thunderbird
 
-# open PCManFM
-Mod1 F6 :Exec pcmanfm
+# open caja
+Mod4 26 :Exec caja
 
 # open Notational Velocity Python
 Mod1 F7 :Exec nvpy
@@ -184,6 +184,10 @@ Mod4 F9 :SendToWorkspace 9
 Mod4 F10 :SendToWorkspace 10
 Mod4 F11 :SendToWorkspace 11
 Mod4 F12 :SendToWorkspace 12
+
+#brillo
+233 :Exec xbacklight -inc 5%
+232 :Exec xbacklight -dec 1%
 
 # send the current window and change to a specific workspace
 Control Mod4 F1 :TakeToWorkspace 1

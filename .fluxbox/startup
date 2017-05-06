@@ -27,11 +27,16 @@ fi
 # firefox &
 # thunderbird &
 # /usr/bin/conky-manager  /home/alfons/conky-manager/themes/Conky MIUI/config/miui &
+# alarmclock &
 conky -d -b &
-calendar.sh &
-orage &
-glipper &
-alarmclock &
+# calendar.sh &
+#  orage &
+# glipper &
+synapse &
+nextcloud &
+clipit &
+nm-applet &
+mate-power-manager &
 
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
@@ -40,3 +45,4 @@ exec fluxbox
 # or if you want to keep a log:
 # exec fluxbox -log "/home/alfons/.fluxbox/log"
 
+setxkbmap es -variant intl& # para habilitar el teclado español y poder usar la tecla Ñ y los caracteres especiales del idioma.
